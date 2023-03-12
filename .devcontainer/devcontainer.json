@@ -43,12 +43,13 @@
                         "workspace"
                     ]
                 },
-                "telemetry.telemetryLevel": "off",
-                // Replace with preferred color options.
-                "workbench.colorCustomizations": {
-                    "editorRuler.foreground": "#0066ff"
-                },                
-                "workbench.colorTheme": "Cobalt2"
+                // todo-tree highlighting.
+                "todo-tree.highlights.defaultHighlight": {
+                    "icon": "alert",
+                    "type": "tag",
+                    "foreground": "#FF8C00",
+                    "iconColour": "#FF8C00"
+                }
             },
             // List of extensions.
             "extensions": [

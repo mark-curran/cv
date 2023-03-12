@@ -1,12 +1,12 @@
-FROM ruby:3.2.1-bullseye
-
-WORKDIR /tmp/docker_build
-
-# Install jekyll.
-RUN gem install jekyll bundler
+FROM ruby:2.7.4-bullseye
 
 # Change to the starting directory.
 WORKDIR /workspace
+RUN mkdir docs
+RUN cd docs
 
-# Cleanup once build is finished.
-RUN rm -rf /tmp/docker_build
+# Install jekyll and bundler.
+RUN gem update --system
+RUN gem install bundler
+RUN gem install jekyll
+
