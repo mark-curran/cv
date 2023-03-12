@@ -1,0 +1,61 @@
+{
+    // Instructions for the VSCode Remote-Containers extension.
+    "name": "Jekyll Local Site", // As appears in the VSC UI.
+    "dockerComposeFile": "./docker-compose.yml",
+    "runServices": [
+        "local"
+    ],
+    "service": "local",
+    "workspaceFolder": "/workspace",
+    "overrideCommand": true, // Must be true in order to prevent container shutting down prematurely while VSC server is starting.
+    "customizations": {
+        "vscode": {
+            // Will add to settings.json inside the container.
+            "settings": {
+                // Assumes the developer knows where your tests are and when you want to run them.
+                "autoTestDiscoverOnSaveEnabled": false,
+                // Controls whether suggestions should automatically show up while typing.
+                "editor.quickSuggestions": {
+                    "other": "off",
+                    "comments": "off",
+                    "strings": "off"
+                },
+                // Less notifications to install extensions.
+                "extensions.ignoreRecommendations": true,
+                // Editor actions in response to certain git commands.
+                "git.closeDiffOnOperation": true,
+                "git.mergeEditor": false,
+                "git.suggestSmartCommit": false,
+                "git.useIntegratedAskPass": false,
+                // Control markdown linting.
+                "[markdown]": {
+                    "editor.formatOnSave": true
+                },
+                "markdownlint.config": {
+                    "MD007": { 
+                        "indent": 4 
+                    }
+                },
+                // Controls if extensions are run inside the ui or in the workspace.
+                "remote.extensionKind": {
+                    "Gruntfuggly.todo-tree" : ["workspace"],
+                    "njpwerner.autodocstring": [
+                        "workspace"
+                    ]
+                },
+                // todo-tree highlighting.
+                "todo-tree.highlights.defaultHighlight": {
+                    "icon": "alert",
+                    "type": "tag",
+                    "foreground": "#FF8C00",
+                    "iconColour": "#FF8C00"
+                }
+            },
+            // List of extensions.
+            "extensions": [
+				"Gruntfuggly.todo-tree",
+				"DavidAnson.vscode-markdownlint"
+			]
+        }
+    }
+}

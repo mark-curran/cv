@@ -1,0 +1,15 @@
+title: Mark Curran's CV and Blog
+author: ""
+email: mjcur_11@hotmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Hi! I am a software engineer, mathematician and data scientist based on Melbourne, Australia. I use this site to host my CV and an occasional blogpost. You can get in touch via email or LinkedIn.
+baseurl: ""
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+plugins:
+  - jekyll-feed
+
+theme: minima
+# Settings for the minima 2.5.1 theme.
+# https://github.com/jekyll/minima
+github_username:  mark-curran
+linkedin_username: mark-curran-384044172
