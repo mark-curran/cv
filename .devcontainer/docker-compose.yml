@@ -3,6 +3,8 @@ services:
   local:
     build:
       context: '.'
+      args:
+        JEKYLL_VERSION: 3.9.3
     image: jekyll-local-site
     volumes:
       - ..:/workspace
