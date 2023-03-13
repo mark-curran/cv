@@ -1,3 +1,13 @@
+# Ignore bash history.
+.bash_history
+
+# Jekyll things to ignore.
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
 *.gem
 *.rbc
 /.config
