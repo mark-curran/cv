@@ -20,21 +20,22 @@ permalink: /curran_cv/
 
 ### 3+ Years Professional Experience
 
+* All stages of the Data Science/MLOps life cycle, including model design, data processing, and monitoring,
 * Python, including the key data science libraries (pandas, torch), testing frameworks (pytest) and web frameworks (flask/WSGI).
-* SQL (BigQuery, Redshift, MySQL).
-* GCP, both as a user and team SME, and have managed deployments of projects that use multiple services (BigQuery, GCE, Workflows, Pubsub, Cloud Build, IAM, Cloud Functions).
+* SQL (BigQuery, Redshift, Postgres, MySQL).
+* GCP, both as a user and team SME. Have managed deployments of projects that use multiple services (BigQuery, GCE, Workflows, Pubsub, Cloud Build, IAM, Cloud Functions).
 * Apache Airflow. Writing and maintaining DAGS that interact with multiple cloud services, and contributing to cluster maintenance.
 * Docker, writing containers for testing and development as well as production deployments.
 * Agile methodologies and git.
 
-### 6-18 Months Professional Experience
+### 6 Months - 3 Years Professional Experience
 
 * Team lead duties, including scoping stakeholder requirements, writing tickets, facilitating ceremonies.
 * Building and maintaining ETL pipelines for batch jobs and streams.
-* Terraform. Worked in teams that manage large scale data infrastructure on AWS using remote state, as well as some smaller GCP deployments.
+* Terraform. Worked in teams that manage infrastructure across multiple AWS accounts and AZs using remote state, as well as some smaller GCP deployments.
 * Various other tools: bash, and buildkite.
 
-### 3-6 Months Professional Experience
+### 3 - 6 Months Professional Experience
 
 * Various AWS technologies, in particular EKS, Redshift and MKS.
 * Scala language.
