@@ -8,7 +8,7 @@ permalink: /curran_cv/
 
 | <!-- -->             | <!-- -->                                               |
 |----------------------|--------------------------------------------------------|
-| **E-Mail:**          | mjcur_11@hotmail.com                                   |
+| **E-Mail:**          | <mjcur_11@hotmail.com>                                   |
 | **Nationality:**     |Australian.                                             |
 | **Residence:**       |Melbourne, Australia.                                   |
 | **Date of Birth:**   |1988-17-07                                              |
@@ -22,23 +22,26 @@ permalink: /curran_cv/
 
 * All stages of the Data Science/MLOps life cycle, including model design, data processing, and monitoring,
 * Python, including the key data science libraries (pandas, torch), testing frameworks (pytest) and web frameworks (flask/WSGI).
-* SQL (BigQuery, Redshift, Postgres, MySQL).
-* GCP, both as a user and team SME. Have managed deployments of projects that use multiple services (BigQuery, GCE, Workflows, Pubsub, Cloud Build, IAM, Cloud Functions).
-* Apache Airflow. Writing and maintaining DAGS that interact with multiple cloud services, and contributing to cluster maintenance.
-* Docker, writing containers for testing and development as well as production deployments.
+* All things SQL. Managing batch processing jobs (BigQuery, Redshift), and DB admin duties for operational databases (native PostgreSQL, MySQL).
+* Docker, building containers for development and production, buidling CI pipelines and managing build cache.
+* GCP, both as a user and team SME. Managed deployments that leverage multiple services (BigQuery, GCE, Workflows, Pubsub, Cloud Build, IAM, Cloud Functions).
+* Apache Airflow. Writing and maintaining DAGS that interact with multiple cloud services, and as a cluster admin.
 * Agile methodologies and git.
 
-### 6 Months - 3 Years Professional Experience
+### 1 year - 3 Years Professional Experience
 
+* nodejs, including common backend libraries (express, knex, jest, vitest).
+* Kubernetes generalist (EKS, GKE and Redhat OpenShift).
 * Team lead duties, including scoping stakeholder requirements, writing tickets, facilitating ceremonies.
-* Building and maintaining ETL pipelines for batch jobs and streams.
 * Terraform. Worked in teams that manage infrastructure across multiple AWS accounts and AZs using remote state, as well as some smaller GCP deployments.
-* Various other tools: bash, and buildkite.
+* Redis, both as a message stream and key-value store.
+* Various AWS technologies (EKS, MKS, Redshift and Secrets Manager).
+* Various other CI tools: bash scripting, buildkite, gitlab, GitHub actions.
 
-### 3 - 6 Months Professional Experience
+### 6 months - 1 year Professional Experience
 
-* Various AWS technologies, in particular EKS, Redshift and MKS.
-* Scala language.
+* Playwright frontend testing.
+* Scala programming language.
 
 ### Academic Experience
 
@@ -83,40 +86,50 @@ permalink: /curran_cv/
 
 ## Professional Experience
 
-### 2022/12 – Present
+### 2023/04 - Present
 
-#### Pepperstone Group, Melbourne. Data Engineer
+#### Everest Engineering, Senior Data Engineer
+
+* **Role Description:** Client facing contract work through Everest Engineering, and acting as an internal SME on all things data science and engineering.
+
+#### OneTwo Financial, Data Engineer
+
+* **Role Description:** Built reporting capabilities into a backend system (node.js and python) that supported home loan application processing. This data export layer had to ensure that business salient events were captured and replicated into ANZ's data lake, without impacting the software's operational SLAs. Outside of development work, I executed a variety of BA and team lead duties when required.
+
+### 2022/12 – 2023/04
+
+#### Pepperstone Group, Data Engineer
 
 * **Role Description:** Building and maintaining ETL pipelines from various sources (Kafka, Rab- bitMQ, Websockets, MySQL databases, S3) into Redshift, as well as contributing to infrastructure maintenance (upgrades, monitoring).
 
 ### 2022/05 – 2022/11
 
-#### Woolworths Group, Melbourne/Sydney. Data Engineer
+#### Woolworths Group, Data Engineer
 
 * **Role Description:** Developer and deputy team lead for tooling to assist business stakeholders in the supply chain domain. Responsible for developing the ETL pipelines, orchestration and infrastructure as code. Moreover, organized a reading group on computer vision and authored department wide documentation and coding standards.
 
 ### 2019/05 - 2021/11
 
-#### Wayfair GmbH, Berlin. Data Scientist
+#### Wayfair GmbH, Data Scientist
 
 * **Role Description:** Building containerized applications that run predictive algorithms. Projects included demand forecasting and delivery date prediction.
 
 ### 2015/01 - 2018/12
 
-#### Free University of Berlin. Research Associate
+#### Free University of Berlin, Research Associate
 
 * **Project:** “Reaction-diffusion systems: hysteresis and nonlocal interactions".
 * **Role Description:** Mathematical analysis of models of diffusing substances that react with their environment according to a hysteresis law.
 
 ### 2013/03 - 2014/12
 
-#### Free University of Berlin. Student Assistant
+#### Free University of Berlin, Student Assistant
 
 * **Project:** “Hysteresis and nonlocal interactions".
 * **Role Description:** Preliminary research on the models described above. Writing and designing research proposals.
 
 ### 2010/07 - 2012/07
 
-#### Monash University. Tutor
+#### Monash University, Tutor
 
 * **Role Description:** Tutor within the mathematics department. Responsible for courses in discrete mathematics, linear algebra and analysis.
