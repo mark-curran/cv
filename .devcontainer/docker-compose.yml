@@ -2,12 +2,13 @@ version: '3'
 services:
   local:
     build:
-      context: '.'
+      context: '..'
       args:
-        JEKYLL_VERSION: 3.9.3
+        JEKYLL_VERSION: 4.3.4
+      dockerfile: '.devcontainer/Dockerfile'
     image: jekyll-local-site
     volumes:
-      - ..:/workspace
+      - ../docs:/workspace/docs
       # Mount to use a custom bash configuration.
       - ./.inputrc:/root/.inputrc
       - ./.git-prompt.sh:/root/.git-prompt.sh
@@ -15,3 +16,18 @@ services:
       - ./.bashrc:/root/.bashrc
       # Create this file and mount it to persist bash history on the host machine.
       - ./.bash_history:/root/.bash_history
+
+    # build:
+    #   context: '.'
+    #   args:
+    #     JEKYLL_VERSION: 4.3.4
+    # image: jekyll-local-site
+    # volumes:
+    #   - ..:/workspace
+    #   # Mount to use a custom bash configuration.
+    #   - ./.inputrc:/root/.inputrc
+    #   - ./.git-prompt.sh:/root/.git-prompt.sh
+    #   - ./.git-completion.bash:/root/.git-completion.bash
+    #   - ./.bashrc:/root/.bashrc
+    #   # Create this file and mount it to persist bash history on the host machine.
+    #   - ./.bash_history:/root/.bash_history
