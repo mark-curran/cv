@@ -20,26 +20,27 @@ permalink: /curran_cv/
 
 ### 3+ Years Professional Experience
 
-* All stages of the Data Science/MLOps life cycle, including model design, data processing, and monitoring,
+* All stages of the Data Science/MLOps life cycle, including model design, data processing, and monitoring.
 * Python, including the key data science libraries (pandas, torch), testing frameworks (pytest) and web frameworks (flask/WSGI).
-* All things SQL. Managing batch processing jobs (BigQuery, Redshift), and DB admin duties for operational databases (native PostgreSQL, MySQL).
-* Docker, building containers for development and production, buidling CI pipelines and managing build cache.
-* GCP, both as a user and team SME. Managed deployments that leverage multiple services (BigQuery, GCE, Workflows, Pubsub, Cloud Build, IAM, Cloud Functions).
-* Apache Airflow. Writing and maintaining DAGS that interact with multiple cloud services, and as a cluster admin.
-* Agile methodologies and git.
+* All things SQL. Managing batch processing pipelines (BigQuery, Redshift), and DB admin duties for operational databases (native PostgreSQL, MySQL).
+* Docker. Building containers for development and production, managing CI build cache and pipelines.
+* Various GCP technologies (BigQuery, GCE, Workflows, Pubsub, Cloud Build, IAM, Cloud Functions).
+* Apache Airflow.
+* BA duties, agile methodologies and git.
 
 ### 1 year - 3 Years Professional Experience
 
 * nodejs, including common backend libraries (express, knex, jest, vitest).
 * Kubernetes generalist (EKS, GKE and Redhat OpenShift).
-* Team lead duties, including scoping stakeholder requirements, writing tickets, facilitating ceremonies.
-* Terraform. Worked in teams that manage infrastructure across multiple AWS accounts and AZs using remote state, as well as some smaller GCP deployments.
-* Redis, both as a message stream and key-value store.
+* Terraform, managing both shared infrastructure like VPCs and smaller bepoke deployments.
+* Redis, both as a message stream and a key-value store.
 * Various AWS technologies (EKS, MKS, Redshift and Secrets Manager).
 * Various other CI tools: bash scripting, buildkite, gitlab, GitHub actions.
 
 ### 6 months - 1 year Professional Experience
 
+* Engineering Manager duties.
+* Data Built Tool (dbt) framework.
 * Playwright frontend testing.
 * Scala programming language.
 
